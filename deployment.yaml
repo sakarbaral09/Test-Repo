@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: first-k8s
-        image: sakar
+        image: node:12-alpine3.14
         resources:
           limits:
             memory: "128Mi"
