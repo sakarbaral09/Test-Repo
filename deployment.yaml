@@ -15,7 +15,6 @@ spec:
       containers:
       - name: first-k8s
         image: sakar
-        imagePullPolicy: Never
         resources:
           limits:
             memory: "128Mi"
